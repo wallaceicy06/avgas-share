@@ -1,0 +1,9 @@
+{
+    "name": "avgas-share-app",
+    "version": "1.0.0",
+    "scripts": {
+      "build:react": "cd client && npm run build:go",
+      "start:go": "cd server && ./run.sh",
+      "start": "npm run build:react && npm run start:go"
+    }
+  }
